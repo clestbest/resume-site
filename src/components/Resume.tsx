@@ -133,8 +133,8 @@ export const Resume = () => {
           <div className="col-12 col-md-6">
             <span className="skill-category">Languages &amp; Frameworks</span>
             <span className="skill-list">
-              C#, ASP.NET MVC, .NET Core, JavaScript, Node.js, Python, HTML5,
-              CSS3, SCSS, Knockout.js, Vue.js, Bootstrap
+              CC#, ASP.NET MVC, .NET Core, JavaScript, TypeScript, Node.js,
+              Python, HTML5, CSS3, SCSS, Knockout.js, Vue.js, React, Bootstrap
             </span>
           </div>
           <div className="col-12 col-md-6">
