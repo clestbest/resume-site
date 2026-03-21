@@ -1,4 +1,4 @@
-import meImg from "../images/me.jpg";
+import meImg from "../images/me.jpeg";
 
 export const Resume = () => {
   return (
