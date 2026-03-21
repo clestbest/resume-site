@@ -5,6 +5,17 @@ export const Resume = () => {
       <header className="pb-3 mb-4">
         <h1 className="display-5 mb-1">Celeste Whelan</h1>
         <div className="subtitle">Senior Software Engineer</div>
+        <div
+          className="mt-2"
+          style={{
+            fontSize: "12px",
+            letterSpacing: "0.08em",
+            color: "#777",
+          }}
+        >
+          C# &middot; .NET &middot; JavaScript &middot; TypeScript &middot;
+          React &middot; AWS &middot; SQL Server
+        </div>
       </header>
       {/* Summary */}
       <section className="mb-4">
