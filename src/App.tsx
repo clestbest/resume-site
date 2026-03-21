@@ -1,17 +1,9 @@
-import React from "react";
+import Resume from "./components/Resume";
 
 function App() {
   return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        height: "100vh",
-        margin: 0,
-      }}
-    >
-      <h1>Celeste Whelan Resume + Typescript</h1>
+    <div className="resume-wrapper mx-auto px-4 px-md-5 py-4 py-md-5">
+      <Resume />
     </div>
   );
 }
