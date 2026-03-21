@@ -1,10 +1,19 @@
+import meImg from "../images/me.jpg";
+
 export const Resume = () => {
   return (
     <>
       {/* Header */}
-      <header className="pb-3 mb-4">
-        <h1 className="display-5 mb-1">Celeste Whelan</h1>
-        <div className="subtitle">Senior Software Engineer</div>
+      <header className="pb-3 mb-4 d-flex flex-column flex-sm-row align-items-center align-items-sm-start justify-content-between gap-3">
+        <div className="text-center text-sm-start">
+          <h1 className="display-5 mb-1">Celeste Whelan</h1>
+          <div className="subtitle">Senior Software Engineer</div>
+        </div>
+        <img
+          src={meImg}
+          alt="Celeste Whelan"
+          className="header-photo"
+        />
       </header>
       {/* Summary */}
       <section className="mb-4">
