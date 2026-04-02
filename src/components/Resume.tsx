@@ -17,7 +17,7 @@ export const Resume = () => {
             }}
           >
             C# &middot; .NET &middot; JavaScript &middot; TypeScript &middot;
-            React &middot; AWS &middot; SQL Server &middot; Claude Code
+            React &middot; AWS &middot; Claude Code
           </div>
         </div>
         <img src={meImg} alt="Celeste Whelan" className="header-photo" />
