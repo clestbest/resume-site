@@ -27,12 +27,15 @@ export const Resume = () => {
         <p className="text-secondary" style={{ fontSize: "13.5px" }}>
           Detail-oriented Senior Software Engineer with 13+ years of experience
           building and enhancing enterprise-level applications using .NET
-          technologies. Proven expertise across the full stack - from back-end
+          technologies. Proven expertise across the full stack from back-end
           services and microservices in AWS to responsive front-end interfaces.
-          Experienced integrating marketing and personalization platforms,
-          conversion tracking APIs, and AI-assisted developer tooling to improve
-          workflow efficiency. Consistently collaborates cross-functionally to
-          align technical execution with business and marketing goals.
+          An early adopter of AI-assisted development, leveraging Claude Code
+          daily to accelerate feature delivery, improve code quality, and
+          streamline complex workflows while maintaining full ownership of all
+          production code. Experienced integrating marketing and personalization
+          platforms, conversion tracking APIs, and third-party services.
+          Consistently collaborates cross-functionally to align technical
+          execution with business goals.
         </p>
       </section>
       {/* Experience */}
@@ -89,7 +92,7 @@ export const Resume = () => {
           </ul>
         </div>
         {/* Job 2 */}
-        <div className="mb-4">
+        <div className="mb-0">
           <div className="d-flex justify-content-between align-items-baseline flex-wrap gap-1">
             <span className="job-title">.NET Application Developer</span>
             <span className="job-dates">June 2013 - October 2019</span>
@@ -99,45 +102,17 @@ export const Resume = () => {
           </div>
           <ul className="resume-list">
             <li>
-              Designed, maintained, and deployed code for multiple
-              customer-facing and internal websites in ASP.NET MVC 5 with Razor
+              Designed and maintained customer-facing and internal websites in
+              ASP.NET MVC 5 with Razor
             </li>
             <li>
-              Built a multi-step claim submission process for customers to
-              submit insurance claims online
+              Built a multi-step online claim submission process and a
+              veterinarian search tool using Vue.js
             </li>
             <li>
-              Created a veterinarian search tool using Vue.js on top of MVC
+              Created a Web API for third-party quote and plan management;
+              overhauled enrollment site for desktop and mobile using Bootstrap
             </li>
-            <li>
-              Overhauled the enrollment website for desktop and mobile using
-              Bootstrap; implemented custom skins for multiple partner companies
-            </li>
-            <li>
-              Created a new Web API allowing third-party companies to create
-              quotes, add pets, and manage plan selections
-            </li>
-            <li>
-              Implemented multiple A/B tests using database and Google Optimize
-              solutions
-            </li>
-          </ul>
-        </div>
-        {/* Job 3 */}
-        <div className="mb-0">
-          <div className="d-flex justify-content-between align-items-baseline flex-wrap gap-1">
-            <span className="job-title">.NET Application Developer</span>
-            <span className="job-dates">April 2012 - June 2013</span>
-          </div>
-          <div className="job-company mb-2">
-            Ascend Management Innovations - Nashville, TN
-          </div>
-          <ul className="resume-list">
-            <li>
-              Developed and maintained web applications for healthcare
-              industries in ASP.NET
-            </li>
-            <li>Converted a legacy classNameic ASP application to C#</li>
           </ul>
         </div>
       </section>
@@ -181,6 +156,26 @@ export const Resume = () => {
             </span>
           </div>
         </div>
+      </section>
+      {/* AI & Tooling */}
+      <section className="mb-4">
+        <div className="section-label">AI &amp; Tooling</div>
+        <ul className="resume-list">
+          <li>
+            Daily user of Claude Code for feature development, code review,
+            refactoring, and debugging across full-stack .NET and React projects
+          </li>
+          <li>
+            Built and deployed multiple personal projects using React,
+            TypeScript, and Vite with Claude Code as the primary development
+            tool, including this resume site and a kiddo events website
+          </li>
+          <li>
+            Uses AI-assisted workflows to reduce time-to-delivery while
+            maintaining full understanding and ownership of all code shipped to
+            production
+          </li>
+        </ul>
       </section>
       {/* Education */}
       <section className="mb-4">
