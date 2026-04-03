@@ -16,8 +16,7 @@ export const Resume = () => {
               color: "#777",
             }}
           >
-            C# &middot; .NET &middot; JavaScript &middot; TypeScript &middot;
-            React &middot; AWS &middot; Claude Code
+            C# &middot; .NET &middot; JavaScript &middot; React &middot; AWS &middot; Claude Code
           </div>
         </div>
         <img src={meImg} alt="Celeste Whelan" className="header-photo" />
