@@ -16,8 +16,7 @@ export const Resume = () => {
               color: "#777",
             }}
           >
-            C# &middot; .NET &middot; JavaScript &middot; TypeScript &middot;
-            React &middot; AWS &middot; SQL Server
+            C# &middot; .NET &middot; JavaScript &middot; React &middot; AWS &middot; Claude Code
           </div>
         </div>
         <img src={meImg} alt="Celeste Whelan" className="header-photo" />
@@ -28,7 +27,7 @@ export const Resume = () => {
         <p className="text-secondary" style={{ fontSize: "13.5px" }}>
           Detail-oriented Senior Software Engineer with 13+ years of experience
           building and enhancing enterprise-level applications using .NET
-          technologies. Proven expertise across the full stack—from back-end
+          technologies. Proven expertise across the full stack - from back-end
           services and microservices in AWS to responsive front-end interfaces.
           Experienced integrating marketing and personalization platforms,
           conversion tracking APIs, and AI-assisted developer tooling to improve
@@ -43,9 +42,9 @@ export const Resume = () => {
         <div className="mb-4">
           <div className="d-flex justify-content-between align-items-baseline flex-wrap gap-1">
             <span className="job-title">Senior Software Engineer</span>
-            <span className="job-dates">October 2019 – Present</span>
+            <span className="job-dates">October 2019 - Present</span>
           </div>
-          <div className="job-company mb-2">Scentsy, Inc — Meridian, ID</div>
+          <div className="job-company mb-2">Scentsy, Inc - Meridian, ID</div>
           <ul className="resume-list">
             <li>
               Develop and maintain multiple enterprise-level .NET MVC
@@ -84,7 +83,7 @@ export const Resume = () => {
             <li>
               Leverage AI-assisted development tools including Claude Code and
               Kiro CLI to accelerate feature development, code review, and
-              troubleshooting—while retaining full ownership and understanding
+              troubleshooting - while retaining full ownership and understanding
               of all production code
             </li>
           </ul>
@@ -93,10 +92,10 @@ export const Resume = () => {
         <div className="mb-4">
           <div className="d-flex justify-content-between align-items-baseline flex-wrap gap-1">
             <span className="job-title">.NET Application Developer</span>
-            <span className="job-dates">June 2013 – October 2019</span>
+            <span className="job-dates">June 2013 - October 2019</span>
           </div>
           <div className="job-company mb-2">
-            Pets Best Insurance — Boise, ID
+            Pets Best Insurance - Boise, ID
           </div>
           <ul className="resume-list">
             <li>
@@ -128,10 +127,10 @@ export const Resume = () => {
         <div className="mb-0">
           <div className="d-flex justify-content-between align-items-baseline flex-wrap gap-1">
             <span className="job-title">.NET Application Developer</span>
-            <span className="job-dates">April 2012 – June 2013</span>
+            <span className="job-dates">April 2012 - June 2013</span>
           </div>
           <div className="job-company mb-2">
-            Ascend Management Innovations — Nashville, TN
+            Ascend Management Innovations - Nashville, TN
           </div>
           <ul className="resume-list">
             <li>
@@ -189,7 +188,7 @@ export const Resume = () => {
         <div className="edu-degree">
           Bachelor of Science in Computer Science
         </div>
-        <div className="job-company">Neumont University — South Jordan, UT</div>
+        <div className="job-company">Neumont University - South Jordan, UT</div>
       </section>
       {/* Certitications */}
       <section className="mb-0">
