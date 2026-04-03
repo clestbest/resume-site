@@ -27,11 +27,11 @@ export const Resume = () => {
         <p className="text-secondary" style={{ fontSize: "13.5px" }}>
           Detail-oriented Senior Software Engineer with 13+ years of experience
           building and enhancing enterprise-level applications using .NET
-          technologies. Proven expertise across the full stack - from back-end
+          technologies. Proven expertise across the full stack from back-end
           services and microservices in AWS to responsive front-end interfaces.
           An early adopter of AI-assisted development, leveraging Claude Code
           daily to accelerate feature delivery, improve code quality, and
-          streamline complex workflows - while maintaining full ownership of all
+          streamline complex workflows while maintaining full ownership of all
           production code. Experienced integrating marketing and personalization
           platforms, conversion tracking APIs, and third-party services.
           Consistently collaborates cross-functionally to align technical
@@ -166,8 +166,9 @@ export const Resume = () => {
             refactoring, and debugging across full-stack .NET and React projects
           </li>
           <li>
-            Built and deployed a personal resume site using React, TypeScript,
-            and Vite with Claude Code as the primary development tool
+            Built and deployed multiple personal projects using React,
+            TypeScript, and Vite with Claude Code as the primary development
+            tool, including this resume site and a kiddo events website
           </li>
           <li>
             Uses AI-assisted workflows to reduce time-to-delivery while
