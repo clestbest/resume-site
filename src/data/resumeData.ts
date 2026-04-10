@@ -34,7 +34,7 @@ export const resumeData = {
   skills: [
     {
       category: "Languages & Frameworks",
-      items: "C#, ASP.NET MVC, .NET Core, JavaScript, TypeScript, Node.js, Python, HTML5, CSS3, SCSS, Knockout.js, Vue.js, React, Bootstrap",
+      items: "C#, ASP.NET MVC, .NET Core, JavaScript, TypeScript, Node.js, REST API, Python, HTML5, CSS3, SCSS, Knockout.js, Vue.js, React, Bootstrap",
     },
     {
       category: "Databases & Cloud",
