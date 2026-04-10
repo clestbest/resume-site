@@ -3,7 +3,7 @@ export const resumeData = {
   title: "Senior Software Engineer",
   headerSkills: ["C#", ".NET", "JavaScript", "React", "AWS", "Claude Code"],
   summary:
-    "Detail-oriented Senior Software Engineer with 13+ years of experience building and enhancing enterprise-level applications using .NET technologies. Proven expertise across the full stack from back-end services and microservices in AWS to responsive front-end interfaces. An early adopter of AI-assisted development, leveraging Claude Code daily to accelerate feature delivery, improve code quality, and streamline complex workflows while maintaining full ownership of all production code. Experienced integrating marketing and personalization platforms, conversion tracking APIs, and third-party services. Consistently collaborates cross-functionally to align technical execution with business goals.",
+    "Detail-oriented Senior Software Engineer with 13+ years of experience building and enhancing enterprise-level applications using .NET technologies. Proven expertise across the full stack from back-end services and microservices in AWS to responsive front-end interfaces. An early adopter of AI-assisted development, leveraging Claude Code daily to accelerate feature delivery, improve code quality, and streamline complex workflows while maintaining full ownership of all production code. Experienced in integrating marketing and personalization platforms, conversion tracking APIs, and third-party services. Consistently collaborates cross-functionally to align technical execution with business goals.",
   experience: [
     {
       title: "Senior Software Engineer",
