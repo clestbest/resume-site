@@ -30,7 +30,7 @@ export const Resume = () => {
           building and enhancing enterprise-level applications using .NET
           technologies. Proven expertise across the full stack—from back-end
           services and microservices in AWS to responsive front-end interfaces.
-          Experienced integrating marketing and personalization platforms,
+          Experienced in integrating marketing and personalization platforms,
           conversion tracking APIs, and AI-assisted developer tooling to improve
           workflow efficiency. Consistently collaborates cross-functionally to
           align technical execution with business and marketing goals.
