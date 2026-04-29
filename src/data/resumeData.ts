@@ -17,6 +17,7 @@ export const resumeData = {
         "Implement conversion tracking pipelines with SHA-256 data normalization, event deduplication, and platform-specific parameter handling",
         "Develop AWS Lambda functions for product indexing and automation; work with S3, CloudFormation, and other AWS services for cloud-based solutions",
         "Mentor team members through code reviews, technical guidance, and pair programming; write clear documentation and maintain readable, well-commented code",
+        "Implemented and managed 100+ Talon.One promotion campaigns across global markets, including API integration, rules configuration, auto-bundling, discounts, and VAT-aware logic for European storefronts",
       ],
     },
     {
