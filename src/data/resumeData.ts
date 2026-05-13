@@ -3,7 +3,7 @@ export const resumeData = {
   title: "Senior Software Engineer",
   headerSkills: ["C#", ".NET", "JavaScript", "AWS", "Claude Code"],
   summary:
-    "Detail-oriented Senior Software Engineer with 13+ years of experience building and enhancing enterprise-level applications using .NET technologies. Proven expertise across the full stack from back-end services and microservices in AWS to responsive front-end interfaces. An early adopter of AI-assisted development, leveraging Claude Code daily to accelerate feature delivery, improve code quality, and streamline complex workflows while maintaining full ownership of all production code. Experienced integrating marketing and personalization platforms, conversion tracking APIs, and third-party services. Consistently collaborates cross-functionally to align technical execution with business goals.",
+    "Senior software engineer with expertise in full-stack development of enterprise-level applications using .NET technologies. Led successful redesigns and integrations that enhanced user experiences and boosted conversion rates, resulting in significant business impact. Utilized AI-assisted tools to streamline feature delivery and improve efficiency.",
   experience: [
     {
       title: "Senior Software Engineer",
@@ -28,16 +28,16 @@ export const resumeData = {
       dates: "June 2013 – October 2019",
       company: "Pets Best Insurance - Boise, ID",
       bullets: [
-        "Built a multi-step online claim submission workflow and veterinarian search tool using Vue.js",
-        "Designed and maintained customer-facing and internal websites in ASP.NET MVC 5 with Razor views",
-        "Overhauled enrollment site for desktop and mobile using Bootstrap; built a Web API for third-party quote and plan management",
+        "Created Web API for third-party quote and plan management; overhauled enrollment site for desktop and mobile using Bootstrap to ensure responsive design and accessibility",
+        "Designed and maintained customer-facing and internal websites in ASP.NET MVC 5 with Razor to enhance user experience and streamline access to information",
+        "Built multi-step online claim submission process and veterinarian search tool using Vue.js to simplify user interactions and improve service delivery",
       ],
     },
   ],
   skills: [
     {
       category: "Languages & Frameworks",
-      items: "C#, ASP.NET MVC, .NET Core, JavaScript, TypeScript, React, Node.js, REST API, Python, HTML5, CSS3, SCSS, Knockout.js, Vue.js, Bootstrap",
+      items: "C#, ASP.NET MVC, .NET Core, JavaScript, React, Node.js, REST API, Microservices, HTML5, CSS3, SCSS, Vue.js, Bootstrap",
     },
     {
       category: "Databases & Cloud",
@@ -45,21 +45,19 @@ export const resumeData = {
     },
     {
       category: "Platforms & Integrations",
-      items: "Algolia, Contentstack CMS, Lytics CDP, Facebook CAPI, TikTok CAPI, Pinterest CAPI, Talon.One, SendGrid, Google Analytics, Google Consent Mode v2",
+      items: "Promotional campaigns, Email automation, Google Analytics, Search optimization, Social media integration",
     },
     {
       category: "Developer Tools",
-      items: "Git, GitHub, Visual Studio, Jira, Figma, Gulp, WSL, Claude Code, Kiro CLI",
+      items: "Git, GitHub, Visual Studio, Jira, Figma, Gulp, Code review tools, Command line tools",
     },
     {
       category: "Methodologies",
-      items: "Full-stack development, RESTful API design, microservices, unit testing, responsive design, agile/scrum",
+      items: "Full-stack development, Unit testing, Responsive design, Agile/scrum",
     },
   ],
   aiTooling: [
-    "Daily user of Claude Code for feature development, code review, refactoring, and debugging across full-stack .NET and React projects",
-    "Built and deployed multiple personal projects using React, TypeScript, and Vite with Claude Code as the primary development tool, including a resume site and a family event discovery app (kiddo-app) built on Supabase and Cloudflare Pages",
-    "Uses AI-assisted workflows to reduce time-to-delivery while maintaining full understanding and ownership of all code shipped to production",
+    "Leveraged AI-assisted development tools including Claude Code and Kiro CLI to accelerate feature development, code review, and troubleshooting, while retaining full ownership and understanding of all production code",
   ],
   education: {
     degree: "B.S. Computer Science",
