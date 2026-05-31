@@ -2,7 +2,16 @@ import meImg from "../images/me.jpeg";
 import { resumeData } from "../data/resumeData";
 
 export const Resume = () => {
-  const { name, title, headerSkills, summary, experience, skills, aiTooling, education, certifications } = resumeData;
+  const {
+    name,
+    title,
+    headerSkills,
+    summary,
+    experience,
+    skills,
+    aiTooling,
+    education,
+  } = resumeData;
 
   return (
     <>
@@ -11,7 +20,10 @@ export const Resume = () => {
         <div className="text-center text-sm-start">
           <h1 className="display-5 mb-1">{name}</h1>
           <div className="subtitle">{title}</div>
-          <div className="mt-2" style={{ fontSize: "12px", letterSpacing: "0.08em", color: "#777" }}>
+          <div
+            className="mt-2"
+            style={{ fontSize: "12px", letterSpacing: "0.08em", color: "#777" }}
+          >
             {headerSkills.join(" · ")}
           </div>
         </div>
@@ -21,7 +33,9 @@ export const Resume = () => {
       {/* Summary */}
       <section className="mb-4">
         <div className="section-label">Professional Summary</div>
-        <p className="text-secondary" style={{ fontSize: "13.5px" }}>{summary}</p>
+        <p className="text-secondary" style={{ fontSize: "13.5px" }}>
+          {summary}
+        </p>
       </section>
 
       {/* Experience */}
@@ -48,7 +62,14 @@ export const Resume = () => {
         <div className="section-label">Technical Skills</div>
         <div className="row g-3">
           {skills.map((skill, i) => (
-            <div key={i} className={skill.category === "Methodologies" ? "col-12" : "col-12 col-md-6"}>
+            <div
+              key={i}
+              className={
+                skill.category === "Methodologies"
+                  ? "col-12"
+                  : "col-12 col-md-6"
+              }
+            >
               <span className="skill-category">{skill.category}</span>
               <span className="skill-list">{skill.items}</span>
             </div>
@@ -71,17 +92,6 @@ export const Resume = () => {
         <div className="section-label">Education</div>
         <div className="edu-degree">{education.degree}</div>
         <div className="job-company">{education.school}</div>
-      </section>
-
-      {/* Certifications */}
-      <section className="mb-0">
-        <div className="section-label">Certifications</div>
-        {certifications.map((cert, i) => (
-          <div key={i}>
-            <div className="fw-500" style={{ fontSize: "13.5px" }}>{cert.name}</div>
-            <div className="job-dates">{cert.issued}</div>
-          </div>
-        ))}
       </section>
     </>
   );

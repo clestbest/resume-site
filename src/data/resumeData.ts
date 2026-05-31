@@ -25,7 +25,7 @@ export const resumeData = {
     },
     {
       title: ".NET Application Developer",
-      dates: "June 2013 – October 2019",
+      dates: "May 2013 – June 2019",
       company: "Pets Best Insurance - Boise, ID",
       bullets: [
         "Created Web API for third-party quote and plan management; overhauled enrollment site for desktop and mobile using Bootstrap to ensure responsive design and accessibility",
@@ -62,11 +62,5 @@ export const resumeData = {
   education: {
     degree: "B.S. Computer Science",
     school: "Neumont University - South Jordan, UT",
-  },
-  certifications: [
-    {
-      name: "AWS Certified Cloud Practitioner",
-      issued: "Issued January 2020",
-    },
-  ],
+  }
 };
