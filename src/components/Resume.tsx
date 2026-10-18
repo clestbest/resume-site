@@ -7,10 +7,10 @@ export const Resume = () => {
     title,
     headerSkills,
     summary,
-    experience,
     skills,
-    aiTooling,
+    experience,
     education,
+    certifications,
   } = resumeData;
 
   return (
@@ -32,10 +32,30 @@ export const Resume = () => {
 
       {/* Summary */}
       <section className="mb-4">
-        <div className="section-label">Professional Summary</div>
+        <div className="section-label">Summary</div>
         <p className="text-secondary" style={{ fontSize: "13.5px" }}>
           {summary}
         </p>
+      </section>
+
+      {/* Skills */}
+      <section className="mb-4">
+        <div className="section-label">Skills</div>
+        <div className="row g-3">
+          {skills.map((skill, i) => (
+            <div
+              key={i}
+              className={
+                i === skills.length - 1 && skills.length % 2 === 1
+                  ? "col-12"
+                  : "col-12 col-md-6"
+              }
+            >
+              <span className="skill-category">{skill.category}</span>
+              <span className="skill-list">{skill.items}</span>
+            </div>
+          ))}
+        </div>
       </section>
 
       {/* Experience */}
@@ -57,41 +77,17 @@ export const Resume = () => {
         ))}
       </section>
 
-      {/* Skills */}
+      {/* Education and Certifications */}
       <section className="mb-4">
-        <div className="section-label">Technical Skills</div>
-        <div className="row g-3">
-          {skills.map((skill, i) => (
-            <div
-              key={i}
-              className={
-                skill.category === "Methodologies"
-                  ? "col-12"
-                  : "col-12 col-md-6"
-              }
-            >
-              <span className="skill-category">{skill.category}</span>
-              <span className="skill-list">{skill.items}</span>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* AI & Tooling */}
-      <section className="mb-4">
-        <div className="section-label">AI &amp; Tooling</div>
-        <ul className="resume-list">
-          {aiTooling.map((item, i) => (
-            <li key={i}>{item}</li>
-          ))}
-        </ul>
-      </section>
-
-      {/* Education */}
-      <section className="mb-4">
-        <div className="section-label">Education</div>
+        <div className="section-label">Education and Certifications</div>
         <div className="edu-degree">{education.degree}</div>
-        <div className="job-company">{education.school}</div>
+        <div className="job-company mb-3">{education.school}</div>
+        {certifications.map((cert, i) => (
+          <div key={i}>
+            <div className="edu-degree">{cert.name}</div>
+            <div className="job-dates">{cert.issued}</div>
+          </div>
+        ))}
       </section>
     </>
   );

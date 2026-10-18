@@ -51,7 +51,7 @@ const jobCompany = (text: string) =>
   });
 
 export const generateWordDoc = async () => {
-  const { name, title, headerSkills, summary, experience, skills, aiTooling, education, certifications } = resumeData;
+  const { name, title, headerSkills, summary, skills, experience, education, certifications } = resumeData;
 
   const doc = new Document({
     styles: {
@@ -80,22 +80,14 @@ export const generateWordDoc = async () => {
           }),
 
           // Summary
-          sectionLabel("Professional Summary"),
+          sectionLabel("Summary"),
           new Paragraph({
             children: [new TextRun({ text: summary, size: 22, color: GRAY })],
             spacing: { after: 120 },
           }),
 
-          // Work Experience
-          sectionLabel("Work Experience"),
-          ...experience.flatMap((job) => [
-            jobHeader(job.title, job.dates),
-            jobCompany(job.company),
-            ...job.bullets.map(bulletItem),
-          ]),
-
-          // Technical Skills
-          sectionLabel("Technical Skills"),
+          // Skills
+          sectionLabel("Skills"),
           ...skills.map((skill) =>
             new Paragraph({
               children: [
@@ -106,12 +98,16 @@ export const generateWordDoc = async () => {
             })
           ),
 
-          // AI & Tooling
-          sectionLabel("AI & Tooling"),
-          ...aiTooling.map(bulletItem),
+          // Work Experience
+          sectionLabel("Work Experience"),
+          ...experience.flatMap((job) => [
+            jobHeader(job.title, job.dates),
+            jobCompany(job.company),
+            ...job.bullets.map(bulletItem),
+          ]),
 
-          // Education
-          sectionLabel("Education"),
+          // Education and Certifications
+          sectionLabel("Education and Certifications"),
           new Paragraph({
             children: [new TextRun({ text: education.degree, bold: true, size: 24, font: "Georgia", color: DARK })],
             spacing: { after: 40 },
@@ -120,9 +116,6 @@ export const generateWordDoc = async () => {
             children: [new TextRun({ text: education.school, size: 20, color: ACCENT, bold: true })],
             spacing: { after: 80 },
           }),
-
-          // Certifications
-          sectionLabel("Certifications"),
           ...certifications.flatMap((cert) => [
             new Paragraph({
               children: [new TextRun({ text: cert.name, bold: true, size: 22, color: DARK })],
