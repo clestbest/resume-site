@@ -1,9 +1,9 @@
 export const resumeData = {
   name: "Celeste Whelan",
-  title: "Senior Software Engineer",
+  title: "AI Product Engineer",
   headerSkills: ["C#", ".NET", "JavaScript", "AWS", "Claude Code"],
   summary:
-    "Senior Software Engineer with 13+ years of experience building business software in C#, .NET, and SQL Server. Hands-on experience calling Anthropic and Gemini model APIs. Recently built AI features that read real estate emails and pull out deals, tasks, and key dates for brokers. Designed a way to turn unclear AI results into simple choices so users can resolve them in seconds. Portfolio: celestewhelan.com. Uses AI tools like Claude Code and GitHub Copilot to build and test software faster.",
+    "AI Product Engineer with 13+ years of experience building business software in C#, .NET, and SQL Server. Hands-on experience calling Anthropic and Gemini model APIs. Recently built AI features that read real estate emails and pull out deals, tasks, and key dates for brokers. Designed a way to turn unclear AI results into simple choices so users can resolve them in seconds. Portfolio: celestewhelan.com. Uses AI tools like Claude Code and GitHub Copilot to build and test software faster.",
   skills: [
     {
       category: "AI",
