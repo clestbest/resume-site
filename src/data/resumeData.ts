@@ -28,7 +28,7 @@ export const resumeData = {
   ],
   experience: [
     {
-      title: "Senior Software Engineer",
+      title: "AI Product Engineer",
       dates: "July 2026 – Present",
       company: "Alaris Mail - Boise, ID",
       bullets: [
